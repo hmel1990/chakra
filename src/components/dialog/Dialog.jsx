@@ -32,7 +32,7 @@ export default function Demo (props) {
                                 <Dialog.Positioner>
                                     <Dialog.Content>
                                         <Dialog.Header>
-                                            <Dialog.Title style={{ textTransform: "capitalize" }}>
+                                            <Dialog.Title style={{ textTransform: "capitalize" }} >
                                                 {props.films[selected].title}
                                             </Dialog.Title>
                                         </Dialog.Header>
