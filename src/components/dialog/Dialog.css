@@ -1,0 +1,31 @@
+.filmDescription{
+    width: 95%;
+    margin: 20px auto;
+    /*border: 2px red solid;*/
+    border-radius: 10px;
+    box-shadow: 0 0 20px;
+    padding: 5px;
+}
+.filmTitle{
+
+}
+.Button {
+    width: 250px;
+
+}
+
+.filmsContainer{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.filmContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: 0 0 5px;
+    border-radius: 10px;
+    margin: 10px;
+
+}
