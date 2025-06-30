@@ -52,14 +52,13 @@ const TimeText = styled.div`
   font-size: 2rem;
   margin-top: 10px;
   color: ${({ dayTime }) => {
-  switch (dayTime) {
-    case 'night': return '#4a4e69';
-    case 'morning': return '#ffb703';
-    case 'afternoon': return '#219ebc';
-    case 'evening': return '#6a0572';
-    default: return '#000';
+    if (dayTime === 'night') return '#4a4e69';
+    if (dayTime === 'morning') return '#ffb703';
+    if (dayTime === 'afternoon') return '#219ebc';
+    if (dayTime === 'evening') return '#6a0572';
+    return '#000';
   }
-}};
+}}
 `;
 
 // ===== СТИЛИ =====
