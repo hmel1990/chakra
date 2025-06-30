@@ -34,6 +34,7 @@ function TimeOfYear (date)
 const ClockWrapper = styled.div`
   padding: 20px;
   text-align: center;
+  width: 500px;
   font-family: sans-serif;
   border-radius: 10px;
 
