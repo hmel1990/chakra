@@ -39,7 +39,7 @@ const ClockWrapper = styled.div`
   border-radius: 10px;
 
   background-color: ${({ timeOfYear }) =>
-    timeOfYear === 'summer' ? '#fffae3' : '#f0f0f0'};
+    timeOfYear === 'summer' ? '#fdeea8' : '#f0f0f0'};
 `;
 
 const DateText = styled.div`
